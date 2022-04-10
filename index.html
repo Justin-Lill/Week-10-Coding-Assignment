@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 offset-lg-4">
+                <h1 class="=text-center">
+                    To Do App
+                </h1>
+                <form action="" method="post">
+                    <div class="mb-3 text-center">
+                        <label for="todo">
+                            <input type="text" name="todo" id="todo" placeholder="Enter task">
+                        </label>
+                        <button type="submit" class="btn btn-primary">Add Task</button>
+
+
+                    </div>
+                </form>
+                <button class="btn btn-info" id="listTasks">List Tasks</button>
+                <button class="btn btn-danger" onclick="permanentlyRemove()" id="">Remove All Tasks</button>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+
+    </div>
+    <div class="row">
+
+    </div>
+    <div class="col-lg-4 offset-lg-4">
+
+    </div>
+    <ol id="orderedTaskList">
+
+    </ol>
+
+    <script src="script.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+
+
+</body>
+</html>
